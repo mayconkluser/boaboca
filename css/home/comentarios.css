@@ -57,9 +57,35 @@
   height: 100%;
 }
 .comentairo-img img {
+  object-fit: cover;
+  height: 100%;
   border-radius: 5px 5px 5px 0;
   -webkit-border-radius: 5px 5px 5px 0;
   -moz-border-radius: 5px 5px 5px 0;
   -ms-border-radius: 5px 5px 5px 0;
   -o-border-radius: 5px 5px 5px 0;
+}
+
+@media (max-width: 1200px) {
+  .comentario {
+    box-shadow: inset 0 60px var(--cor-d8);
+  }
+}
+@media (max-width: 1000px) {
+  .comentarios-box {
+    grid-template-columns: 1fr;
+  }
+  .comentario {
+    grid-template-columns: 2fr 1fr;
+    box-shadow: inset 0 140px var(--cor-d8);
+  }
+  .comentairo-img {
+    justify-self: flex-end;
+  }
+}
+
+@media (max-width: 700px) {
+  .comentario {
+    box-shadow: inset 0 0px var(--cor-d8);
+  }
 }
