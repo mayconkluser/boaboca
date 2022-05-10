@@ -1,0 +1,65 @@
+.comentarios {
+  background: var(--cor-d8);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.comentarios-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.comentario-titulo {
+  margin-bottom: 40px;
+}
+
+.comentario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+  background: var(--cor-d7);
+  box-shadow: inset 0 140px var(--cor-d8);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.comentario-info {
+  padding: 40px 20px;
+}
+
+.comentario-paragrafo {
+  margin-bottom: 12px;
+}
+
+.comentario-paragrafo::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../../img/icones/aspas1.svg") no-repeat;
+}
+.comentario-paragrafo::after {
+  content: "";
+  margin-left: 8px;
+  display: inline-block;
+  width: 20px;
+  height: 11px;
+  background: url("../../img/icones/aspas2.svg") no-repeat;
+}
+
+.comentairo-img {
+  object-fit: cover;
+  height: 100%;
+}
+.comentairo-img img {
+  border-radius: 5px 5px 5px 0;
+  -webkit-border-radius: 5px 5px 5px 0;
+  -moz-border-radius: 5px 5px 5px 0;
+  -ms-border-radius: 5px 5px 5px 0;
+  -o-border-radius: 5px 5px 5px 0;
+}

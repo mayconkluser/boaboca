@@ -1,0 +1,87 @@
+.tradicoes-bg h1 {
+  margin-bottom: 60px;
+  padding: 0 20px;
+}
+
+.tradicoes-culinaria,
+.tradicoes-bebidas {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  background-image: linear-gradient(
+    var(--branco) 15%,
+    var(--cor-m1) 15%,
+    var(--cor-m1) 84%,
+    var(--branco) 84%
+  );
+}
+
+.tradicoes-culinaria {
+  grid-template-columns: 1fr 2fr;
+}
+
+.tradicoes-bebidas {
+  grid-template-columns: 2fr 1fr;
+  margin-top: 60px;
+}
+
+.tradicoes-culinaria-info p,
+.tradicoes-bebidas-info p {
+  margin-top: 32px;
+  max-width: 72ch;
+}
+.tradicoes-bebidas-info {
+  justify-self: right;
+}
+
+.tradicoes-bebidas-info,
+.tradicoes-culinaria-info {
+  margin: 40px;
+}
+
+.tradicoes-culinaria-img {
+  margin-left: 120px;
+}
+
+.tradicoes-bebidas-img {
+  justify-self: flex-end;
+  margin-right: 120px;
+}
+
+.tradicoes-bebidas-img img,
+.tradicoes-culinaria-img img {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .tradicoes-bebidas-img {
+    margin-right: 20px;
+  }
+  .tradicoes-culinaria-img {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .tradicoes-bebidas-img,
+  .tradicoes-culinaria-img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .tradicoes-culinaria-info p,
+  .tradicoes-bebidas-info p {
+    margin-top: 12px;
+  }
+  .tradicoes-culinaria-info,
+  .tradicoes-bebidas-info {
+    padding: 60px 0;
+    margin: 20px;
+  }
+}

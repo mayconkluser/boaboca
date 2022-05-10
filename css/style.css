@@ -1,0 +1,17 @@
+/* GLOBAL */
+@import url("./global/global.css");
+
+/* COMPONESTES */
+@import url("./componentes/botao.css");
+@import url("./componentes/container.css");
+
+/* UTILITÁRIOS */
+@import url("./utilitarios/tipografia.css");
+@import url("./utilitarios/cores.css");
+
+/* HOME */
+@import url("./home/nav.css");
+@import url("./home/tradicoes.css");
+@import url("./home/intro.css");
+@import url("./home/fundadores.css");
+@import url("./home/comentarios.css");

@@ -1,0 +1,216 @@
+:root {
+  /* COR MARROM */
+  --cor-m1: #f2e5e5;
+  --cor-m2: #e5cccc;
+  --cor-m3: #d9b3b2;
+  --cor-m4: #cc9999;
+  --cor-m5: #c0807f;
+  --cor-m6: #b36766;
+  --cor-m7: #a64d4c;
+  --cor-m8: #9a3432;
+  --cor-m9: #8d1b19;
+  --cor-m-logo: #810200;
+  --cor-m10: #740100;
+  --cor-m11: #670100;
+  --cor-m12: #5a0100;
+  --cor-m13: #4d0100;
+  --cor-m14: #400100;
+  --cor-m15: #330000;
+  --cor-m16: #260000;
+  --cor-m17: #190000;
+  --cor-m18: #0c0000;
+
+  /* COR DOURADO */
+  --cor-d1: #fdf8e7;
+  --cor-d2: #fcf1d0;
+  --cor-d3: #fbeab9;
+  --cor-d4: #f9e4a1;
+  --cor-d5: #f8dd8a;
+  --cor-d6: #f7d673;
+  --cor-d7: #f5d05b;
+  --cor-d8: #f4c944;
+  --cor-d9: #f3c22d;
+  --cor-d-logo: #f2bc16;
+  --cor-d10: #d9a913;
+  --cor-d11: #c19611;
+  --cor-d12: #a9830f;
+  --cor-d13: #91700d;
+  --cor-d14: #795e0b;
+  --cor-d15: #604b08;
+  --cor-d16: #483806;
+  --cor-d17: #302504;
+  --cor-d18: #181202;
+
+  /* CORES CINZA */
+  --preto: #000000;
+  --branco: #ffffff;
+  --cor-c11: #121212;
+  --cor-c10: #2e2e2e;
+  --cor-c9: #404040;
+  --cor-c8: #595959;
+  --cor-c7: #707070;
+  --cor-c6: #9c9c9c;
+  --cor-c5: #b3b3b3;
+  --cor-c4: #cccccc;
+  --cor-c3: #dedede;
+  --cor-c2: #ededed;
+  --cor-c1: #f7f7f7;
+}
+/* CORES CINZA */
+.preto {
+  color: #000000;
+}
+.c11 {
+  color: #121212;
+}
+.c10 {
+  color: #2e2e2e;
+}
+.c9 {
+  color: #404040;
+}
+.c8 {
+  color: #595959;
+}
+.c7 {
+  color: #707070;
+}
+.c6 {
+  color: #9c9c9c;
+}
+.c5 {
+  color: #b3b3b3;
+}
+.c4 {
+  color: #cccccc;
+}
+.c3 {
+  color: #dedede;
+}
+.c2 {
+  color: #ededed;
+}
+.c1 {
+  color: #f7f7f7;
+}
+.branco {
+  color: #ffffff;
+}
+
+/* COR DOURADO */
+.d18 {
+  color: #181202;
+}
+.d17 {
+  color: #302504;
+}
+.d16 {
+  color: #483806;
+}
+.d15 {
+  color: #604b08;
+}
+.d14 {
+  color: #795e0b;
+}
+.d13 {
+  color: #91700d;
+}
+.d12 {
+  color: #a9830f;
+}
+.d11 {
+  color: #c19611;
+}
+.d10 {
+  color: #d9a913;
+}
+.logo-d {
+  color: #f2bc16;
+}
+.d9 {
+  color: #f3c22d;
+}
+.d8 {
+  color: #f4c944;
+}
+.d7 {
+  color: #f5d05b;
+}
+.d6 {
+  color: #f7d673;
+}
+.d5 {
+  color: #f8dd8a;
+}
+.d4 {
+  color: #f9e4a1;
+}
+.d3 {
+  color: #fbeab9;
+}
+.d2 {
+  color: #fcf1d0;
+}
+.d1 {
+  color: #fdf8e7;
+}
+
+/* COR MARROM */
+.m18 {
+  color: #0c0000;
+}
+.m17 {
+  color: #190000;
+}
+.m16 {
+  color: #260000;
+}
+.m15 {
+  color: #330000;
+}
+.m14 {
+  color: #400100;
+}
+.m13 {
+  color: #4d0100;
+}
+.m12 {
+  color: #5a0100;
+}
+.m11 {
+  color: #670100;
+}
+.m10 {
+  color: #740100;
+}
+.logo-m {
+  color: #810200;
+}
+.m9 {
+  color: #8d1b19;
+}
+.m8 {
+  color: #9a3432;
+}
+.m7 {
+  color: #a64d4c;
+}
+.m6 {
+  color: #b36766;
+}
+.m5 {
+  color: #c0807f;
+}
+.m4 {
+  color: #cc9999;
+}
+.m3 {
+  color: #d9b3b2;
+}
+.m2 {
+  color: #e5cccc;
+}
+.m1 {
+  color: #f2e5e5;
+}
