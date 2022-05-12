@@ -1,0 +1,170 @@
+.evento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: flex-end;
+  background: var(--cor-m12);
+  box-shadow: inset 0 200px var(--branco);
+  margin-bottom: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.eventos .comentario-titulo {
+  padding-left: 20px;
+}
+
+.evento-img {
+  height: 100%;
+  object-fit: cover;
+}
+.evento-img img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 5px;
+  -webkit-border-radius: 5px 5px 0 5px;
+  -moz-border-radius: 5px 5px 0 5px;
+  -ms-border-radius: 5px 5px 0 5px;
+  -o-border-radius: 5px 5px 0 5px;
+}
+
+.evento-talento {
+  padding-top: 20px;
+}
+
+.evento-frase {
+  padding-top: 72px;
+  padding-left: 42px;
+  position: relative;
+  max-width: 29ch;
+}
+
+.evento-frase::before {
+  content: "";
+  display: inline-block;
+  background: url("../../img/icones/aspas-evento-1.svg") no-repeat;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.evento-frase::after {
+  content: "";
+  display: inline-block;
+  background: url("../../img/icones/aspas-evento-2.svg") no-repeat;
+  width: 40px;
+  height: 32px;
+  margin-left: 5px;
+  position: absolute;
+  bottom: -20px;
+}
+
+.evento-data {
+  padding-top: 120px;
+  display: block;
+}
+
+.evento-hora {
+  display: block;
+  margin-top: 10px;
+}
+
+.evento-redes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  margin-bottom: 60px;
+  gap: 32px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.evento-redes a:nth-child(3) {
+  position: absolute;
+  right: 0;
+}
+
+.evento-info1 {
+  padding-right: 60px;
+}
+.evento-info2 {
+  padding-left: 60px;
+}
+
+@media (max-width: 1100px) {
+  .evento {
+    box-shadow: inset 0 120px var(--branco);
+  }
+
+  .evento-frase {
+    padding-top: 38px;
+    padding-left: 17px;
+    max-width: none;
+  }
+
+  .evento-frase::before {
+    top: 30px;
+    background: url("../../img/icones/aspas-evento-1-m.svg") no-repeat;
+  }
+  .evento-frase::after {
+    bottom: -25px;
+
+    background: url("../../img/icones/aspas-evento-2-m.svg") no-repeat;
+  }
+
+  .evento-data {
+    padding-top: 60px;
+    display: block;
+  }
+
+  .evento-hora {
+    display: block;
+    margin-top: 10px;
+  }
+  .evento-redes {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .evento {
+    grid-template-columns: 1fr;
+    box-shadow: none;
+  }
+  .evento-img {
+    grid-row: 1;
+  }
+
+  .evento-img {
+    display: none;
+  }
+
+  .evento2 .evento-img {
+    justify-self: flex-start;
+  }
+
+  .evento-info1,
+  .evento-info2 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  .evento-redes {
+    margin-bottom: 0;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .instagram,
+  .facebook {
+    width: 20px;
+  }
+}

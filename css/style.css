@@ -16,3 +16,6 @@
 @import url("./home/fundadores.css");
 @import url("./home/comentarios.css");
 @import url("./home/footer.css");
+
+/* EVENTOS */
+@import url("./eventos/eventos.css");
