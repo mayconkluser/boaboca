@@ -1,0 +1,74 @@
+.cardapio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-m12);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  gap: 60px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.cardapio:nth-child(3) {
+  margin-top: 60px;
+}
+
+.cardapio-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardapio-img img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.cardapio-info-1 {
+  padding: 32px 60px 32px 0px;
+}
+.cardapio-info-2 {
+  padding: 32px 0px 32px 60px;
+}
+
+.cardapio-subtitulo {
+  padding-top: 20px;
+}
+
+.cardapio-titulo-menu {
+  padding-top: 20px;
+  display: block;
+}
+
+.caradapio-lista li {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  width: 100%;
+}
+.caradapio-lista li span::before {
+  display: inline-block;
+  content: "";
+  width: 100px;
+  height: 1px;
+  margin: 0 10px 0 10px;
+  background: var(--cor-m1);
+}
+
+@media (max-width: 800px) {
+  .cardapio {
+    grid-template-columns: 1fr;
+  }
+  .cardapio-info-1 {
+    padding: 32px 32px 32px 32px;
+  }
+  .cardapio-info-2 {
+    padding: 32px 32px 32px 32px;
+  }
+}

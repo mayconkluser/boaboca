@@ -19,3 +19,9 @@
 
 /* EVENTOS */
 @import url("./eventos/eventos.css");
+
+/* RESTAURANTE */
+@import url("./restaurante/restaurante.css");
+
+/* CARDÁPIO */
+@import url("./cardapio/cardapio.css");

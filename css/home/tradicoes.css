@@ -61,10 +61,10 @@
 
 @media (max-width: 900px) {
   .tradicoes-bebidas-img {
-    margin-right: 20px;
+    margin-right: 0px;
   }
   .tradicoes-culinaria-img {
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
 
