@@ -164,4 +164,11 @@
   .facebook {
     width: 20px;
   }
+  .evento-info1,
+  .evento-info2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
 }

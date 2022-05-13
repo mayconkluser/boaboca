@@ -109,4 +109,7 @@
   .font-4-1-125-r {
     font: 400 0.75rem/1.67 "Roboto", sans-serif;
   }
+  .font-4-15-167-p {
+    font: 400 1rem/1.5 "Playfair Display", serif;
+  }
 }

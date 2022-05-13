@@ -71,4 +71,7 @@
   .restaurante-img:nth-child(6) {
     grid-row: 5;
   }
+  .restaurante-box {
+    gap: 20px;
+  }
 }
