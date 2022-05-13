@@ -13,6 +13,7 @@
 .contato-form input[type="email"],
 .contato-form input[type="date"],
 .contato-form input[type="number"],
+.contato-form input[type="time"],
 textarea {
   width: 100%;
   padding: 8px;
@@ -71,18 +72,19 @@ iframe {
   .contato-form input[type="email"],
   .contato-form input[type="date"],
   .contato-form input[type="number"],
+  .contato-form input[type="time"],
   textarea {
     padding: 4px 4px 4px 8px;
     font: 400 0.75rem/1.67 "Roboto", sans-serif;
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .contato-flex {
     display: flex;
     width: 100%;
     gap: 20px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: flex-end;
     position: initial;
   }
@@ -98,5 +100,10 @@ iframe {
 
   iframe {
     margin-top: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .contato-flex {
+    gap: 0px 20px;
   }
 }

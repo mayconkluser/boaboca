@@ -86,11 +86,15 @@
 
                 <div>
                     <label for="nPessoas">Quantidade de pessoas:</label>
-                    <input id="nPessoas" name="nPessoas" type="number" min="0">
+                    <input id="nPessoas" name="nPessoas" type="number" min="0" required>
                 </div>
                 <div>
                     <label for="data">Data:</label>
-                    <input id="data" name="data" type="date">
+                    <input id="data" name="data" type="date" required>
+                </div>
+                <div>
+                    <label for="horario">Horário:</label>
+                    <input id="horario" name="horario" type="time" required>
                 </div>
             </div>
             <button class="botao">Enviar</button>
