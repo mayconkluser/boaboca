@@ -18,7 +18,7 @@
         rel="stylesheet">
 </head>
 
-<body id="home">
+<body id="contato">
     <header class="header">
         <a href="./index.html"><img class="menu-imgLogo" src="./img/footer/2.png"
                 alt="Logomarca do restaurante Boa Boca."></a>
@@ -53,20 +53,52 @@
 
             <picture class="intro-img">
                 <source media="(max-width: 800px)" srcset="./img/main-img/main-img-media.jpg">
-                <img src="./img/eventos/otimizadas/eventos.jpg" alt="Camarão na panela com molhos especiais.">
+                <img src="./img/contato/otimizado/contato.jpg" alt="Camarão na panela com molhos especiais.">
             </picture>
         </div>
     </main>
 
-    <article class="eventos  container">
-        <h1 class="comentario-titulo font-6-3-1125-p d18">Eventos<span class="font-6-3-1125-p logo-d">.</span></h1>
+    <div class="contato container">
+        <h1 class="comentario-titulo font-6-3-1125-p d18">Contato<span class="font-6-3-1125-p logo-d">.</span></h1>
+        <form action="./contato.html" class="contato-form font-5-1-133-r m8" method="post">
+            <div>
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" name="telefone" type="text" placeholder="(47) 9999-9999" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="contato@email.com">
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea rows="5" name="mensagem" id="mensagem"
+                    placeholder="Gostaria que este dia fosse incrível, por que..."></textarea>
+            </div>
+            <div class="contato-flex">
 
-    </article>
+                <div>
+                    <label for="nPessoas">Quantidade de pessoas:</label>
+                    <input id="nPessoas" name="nPessoas" type="number" min="0">
+                </div>
+                <div>
+                    <label for="data">Data:</label>
+                    <input id="data" name="data" type="date">
+                </div>
+            </div>
+            <button class="botao">Enviar</button>
 
+        </form>
+    </div>
 
-
-
-
+    <div class="contato-local container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.78752716196954!2d-49.11385945736486!3d-26.457828741232486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de951e991ed327%3A0x7106d987db4b885a!2sBoa%20Boca!5e0!3m2!1spt-BR!2sbr!4v1652396114257!5m2!1spt-BR!2sbr"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer class="footer-bg ">
         <div class="container footer">
             <div class="footer-logo">

@@ -11,6 +11,10 @@ img {
   height: auto;
 }
 
+label {
+  display: block;
+}
+
 ul {
   list-style: none;
 }

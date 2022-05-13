@@ -101,3 +101,12 @@
     font: 400 0.75rem/1.67 "Roboto", sans-serif;
   }
 }
+
+@media (max-width: 600px) {
+  .font-6-1-125-r {
+    font: 700 0.75rem/1.67 "Roboto", sans-serif;
+  }
+  .font-4-1-125-r {
+    font: 400 0.75rem/1.67 "Roboto", sans-serif;
+  }
+}

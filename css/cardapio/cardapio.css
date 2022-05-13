@@ -52,23 +52,37 @@
   padding-top: 8px;
   width: 100%;
 }
-.caradapio-lista li span::before {
-  display: inline-block;
-  content: "";
-  width: 100px;
-  height: 1px;
-  margin: 0 10px 0 10px;
-  background: var(--cor-m1);
-}
 
 @media (max-width: 800px) {
   .cardapio {
     grid-template-columns: 1fr;
+    gap: 20px;
+    padding-left: 60px;
+    box-shadow: inset 0 120px var(--branco);
+    padding-right: 60px;
   }
   .cardapio-info-1 {
-    padding: 32px 32px 32px 32px;
+    padding: 0px 32px 32px 32px;
   }
   .cardapio-info-2 {
-    padding: 32px 32px 32px 32px;
+    padding: 0px 32px 32px 32px;
+    grid-row: 3;
+  }
+
+  .cardapio-img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .cardapio {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .cardapio .font-6-3-1125-p {
+    font: 600 1.5rem/1.125 "Playfair Display", serif;
+  }
+  .font-6-2-125-p {
+    font: 600 1rem/1.25 "Playfair Display", serif;
   }
 }
