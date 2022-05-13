@@ -4,6 +4,8 @@
 /* COMPONESTES */
 @import url("./componentes/botao.css");
 @import url("./componentes/container.css");
+@import url("./componentes/titulo-enfeite.css");
+@import url("./componentes/camarao-enfeite.css");
 
 /* UTILITÁRIOS */
 @import url("./utilitarios/tipografia.css");

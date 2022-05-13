@@ -1,0 +1,83 @@
+.camarao-enfeite1-bg,
+.camarao-enfeite2-bg,
+.camarao-enfeite2-1-bg,
+.camarao-enfeite3-bg,
+.camarao-enfeite4-bg {
+  position: relative;
+}
+.camarao-enfeite1-bg::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 150px;
+  background: url("../../img/icones/camarao1-bg.svg") no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+}
+
+.camarao-enfeite2-bg::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: url("../../img/icones/camarao2-bg.svg") no-repeat;
+  margin-left: 30px;
+  top: -40px;
+}
+.camarao-enfeite2-1-bg::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: url("../../img/icones/camarao2-bg.svg") no-repeat;
+  margin-left: 30px;
+  top: -60px;
+  right: 0;
+}
+
+.camarao-enfeite3-bg::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: url("../../img/icones/camarao3-bg.svg") no-repeat;
+  margin-right: 10px;
+  bottom: 0;
+}
+
+.camarao-enfeite4-bg::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 67px;
+  height: 67px;
+  background: url("../../img/icones/camarao4-bg.svg") no-repeat;
+  align-content: center;
+  margin-right: 10px;
+  right: 0;
+  bottom: -10px;
+}
+
+@media (max-width: 1300px) {
+  .camarao-enfeite2-bg::after {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .camarao-enfeite1-bg::after {
+    display: none;
+  }
+  .camarao-enfeite2-1-bg::after {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .camarao-enfeite4-bg::after {
+    display: none;
+  }
+}
