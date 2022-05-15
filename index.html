@@ -25,13 +25,12 @@
     <header class="header">
         <a href="./index.html"><img class="menu-imgLogo" src="./img/footer/2.png"
                 alt="Logomarca do restaurante Boa Boca."></a>
-        <nav class="nav">
-            <svg class="nav-icone-menu" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#400100"
-                class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-            <ul class="menu">
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">Menu
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./restaurante.html">Restaurante</a></li>
                 <li><a href="./cardapio.html">Cardápio</a></li>
@@ -215,7 +214,7 @@
                 Petiscaria Boa Boca.</span>
         </div>]
     </footer>
- <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
