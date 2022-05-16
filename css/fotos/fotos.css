@@ -1,0 +1,22 @@
+.fotos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 60px;
+  padding-top: 24px;
+}
+
+.foto-img img {
+  margin-bottom: 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .fotos-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
