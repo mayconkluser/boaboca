@@ -214,3 +214,12 @@
 .m1 {
   color: #f2e5e5;
 }
+
+/* MSG ERROR */
+.false {
+  background: #ff0200;
+}
+
+.true {
+  background: #45b954;
+}
