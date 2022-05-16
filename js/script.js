@@ -1,8 +1,6 @@
 // LINHA ABAIXO DO MENU
 const links = document.querySelectorAll("#menu a");
 
-console.log();
-
 function ativarLink(link) {
   const url = window.location.href;
   const href = link.href;
@@ -11,8 +9,8 @@ function ativarLink(link) {
     link.classList.add("ativo");
   }
 
-  console.log(url);
-  console.log(href);
+  // console.log(url);
+  // console.log(href);
 }
 links.forEach(ativarLink);
 
@@ -33,3 +31,8 @@ function toggleMenu(event) {
 }
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
+
+// ANIMAÇÃO
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

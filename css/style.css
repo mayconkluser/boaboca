@@ -10,6 +10,7 @@
 /* UTILITÁRIOS */
 @import url("./utilitarios/tipografia.css");
 @import url("./utilitarios/cores.css");
+@import url("./utilitarios/animacao.css");
 
 /* HOME */
 @import url("./home/nav.css");

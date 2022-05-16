@@ -1,3 +1,21 @@
+.contato-horarios {
+  padding-bottom: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contato-horarios-titulo {
+  padding-bottom: 24px;
+}
+
+.contato-horarios-paragrafo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  gap: 40px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
 .contato-form {
   max-width: 800px;
   margin: 0 auto;

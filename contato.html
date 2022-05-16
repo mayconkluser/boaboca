@@ -19,6 +19,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 
 <body id="contato">
@@ -43,17 +46,18 @@
     <main class="intro-bg">
         <div class="container intro">
             <div class="intro-info camarao-enfeite1-bg">
-                <h1 class="intro-titilo font-6-3-1125-p branco">As melhores lembranças são feitas de: <span
-                        class="logo-d font-6-3-1125-p">Boa
-                        comida</span>,
-                    <span class="logo-d font-6-3-1125-p">bons
-                        amigos</span> e <span class="font-6-3-1125-p logo-d">bons
-                        momentos</span>.</h1>
-                <p class="intro-paragrafo font-5-15-15-p">Amor é o principal ingrediente da nossa cozinha.</p>
-                <a class="botao" href="./contato.html">Solicite uma mesa</a>
+                <h1 data-anime="200" class="fadeInDown intro-titilo font-6-3-1125-p branco">
+                    O <span class="logo-d font-6-3-1125-p">caminho da felicidade</span> tem o endereço do <span
+                        class="logo-d font-6-3-1125-p">nosso
+                        restaurante</span>.
+                </h1>
+                <p data-anime="400" class="intro-paragrafo fadeInDown font-5-15-15-p">Amor é o principal ingrediente da
+                    nossa
+                    cozinha.</p>
+                <a data-anime="600" class="botao fadeInDown" href="./contato.html">Solicite uma mesa</a>
             </div>
 
-            <picture class="intro-img">
+            <picture data-anime="800" class="intro-img fadeInDown">
                 <source media="(max-width: 800px)" srcset="./img/main-img/otimizadas/main-img-media.jpg">
                 <img src="./img/contato/otimizado/contato.jpg" alt="Camarão na panela com molhos especiais.">
             </picture>
@@ -61,8 +65,31 @@
     </main>
 
     <div class="contato container">
-        <h1 class="comentario-titulo font-6-3-1125-p camarao-enfeite2-1-bg titulo-enfeite d18">Contato<span
+        <h1 class="comentario-titulo m18 font-6-3-1125-p camarao-enfeite2-1-bg titulo-enfeite d18">Contato<span
                 class="font-6-3-1125-p logo-d">.</span></h1>
+        <div class="contato-horarios">
+            <h2 class="contato-horarios-titulo font-6-2-125-p m12">Horários de atendimento:</h2>
+            <p class="contato-horarios-paragrafo font-5-15-15-p  m6">Segunda-feira <span class="font-5-15-15-p">11:00 -
+                    13:30 / 18-00-
+                    23-00</span></p>
+            <p class="contato-horarios-paragrafo font-5-15-15-p m6">Terça-feira <span class="font-5-15-15-p">11:00 -
+                    13:30 / 18-00- 23-00</span>
+            </p>
+            <p class="contato-horarios-paragrafo font-5-15-15-p m6">Quarta-feira <span class="font-5-15-15-p">11:00 -
+                    13:30 / 18-00- 23-00</span>
+            </p>
+            <p class="contato-horarios-paragrafo font-5-15-15-p m6">Quinta-feira <span class="font-5-15-15-p">11:00 -
+                    13:30 / 18-00- 23-00</span>
+            </p>
+            <p class="contato-horarios-paragrafo font-5-15-15-p m6">Sexta-feira <span class="font-5-15-15-p">11:00 -
+                    13:30 / 18-00- 23-00</span>
+            </p>
+            <p class="contato-horarios-paragrafo font-5-15-15-p m6">Sábado <span class="font-5-15-15-p">11:00 - 13:30 /
+                    18-00- 23-00</span></p>
+            <p class="contato-horarios-paragrafo font-5-15-15-p m6">Domingo <span class="font-5-15-15-p">11:00 - 13:30 /
+                    18-00- 23-00</span></p>
+        </div>
+
         <form action="./contato.html" class="contato-form font-5-1-133-r m8" method="post">
             <div>
                 <label for="nome">Nome:</label>
@@ -82,7 +109,6 @@
                     placeholder="Gostaria que este dia fosse incrível, por que..."></textarea>
             </div>
             <div class="contato-flex">
-
                 <div>
                     <label for="nPessoas">Quantidade de pessoas:</label>
                     <input id="nPessoas" name="nPessoas" type="number" min="0" required>
@@ -121,10 +147,10 @@
                     <li class="font-5-1-133-r m4">Jaraguá do Sul - SC</li>
                 </ul>
                 <div class="footer-redes">
-                    <a href="#">
+                    <a href="#" target="_blank">
                         <img src="./img/icones/instagram.svg" width="32" height="31" alt="Instagram">
                     </a>
-                    <a href="#">
+                    <a href="#" target="_blank">
                         <img src="./img/icones/facebook.svg" width="32" height="31" alt="Facebook">
                     </a>
                 </div>
@@ -145,6 +171,7 @@
                 Petiscaria Boa Boca.</span>
         </div>]
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
