@@ -6,7 +6,3 @@ diferente.
 
 --BEBIDA:
 Acreditamos que o vinho feito dessa forma tem um sabor melhor, é mais vibrante, e combina perfeitamente com nossa comida. Nossas cervejas e espíritos também são de Portugal – trouxemos todos os clássicos e os últimos novatos para dar uma olhada no ensolarado Portugal.
-
-data-anime="200"
-fadeInLeft
-fadeInDown

@@ -11,8 +11,9 @@
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 
     <!-- STYLE -->
-    <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,17 +67,18 @@
 
     <section class="bg-h1">
         <div class="container bg-h1-conteudo">
-            <h1 class="comentario-titulo titulo-enfeite bg-h1-h1 font-6-3-1125-p branco">Nossas recordações<span
-                    class="font-6-3-1125-p logo-d">.</span>
+            <h1 data-anime="200" class="comentario-titulo titulo-enfeite bg-h1-h1 font-6-3-1125-p branco fadeInLeft">
+                Nossas
+                recordações<span class="font-6-3-1125-p logo-d">.</span>
             </h1>
 
-            <p class="tradicoes-culinaria-paragrafo bg-h1-paragrafo font-4-15-167-p m3">
+            <p data-anime="400" class="tradicoes-culinaria-paragrafo bg-h1-paragrafo font-4-15-167-p m3 fadeInRight">
                 <span class="d4 font-4-15-167-p bg-h1-paragrafo">A vida</span> é melhor quando <span
-                    class="d4 font-4-15-167-p bg-h1-paragrafo"><br>você está sorrindo</span>.</p>
+                    class="d4 font-4-15-167-p bg-h1-paragrafo">você está sorrindo</span>.</p>
         </div>
     </section>
 
-    <section aria-label="Fotos de recordações" class="fotos  container">
+    <section data-anime="600" aria-label="Fotos de recordações" class="fotos  container fadeInDown">
         <div class="fotos-container">
 
             <div class="foto-box">
