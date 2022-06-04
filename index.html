@@ -11,8 +11,9 @@
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 
     <!-- STYLE -->
-    <link rel="preload" href="./css/style.min.css" as="style">
-    <link rel="stylesheet" href="./css/style.min.css">
+    <!-- <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,7 @@
         rel="stylesheet">
 
     <script>
-        document.documentElement.classList.add('js');
+        document.documentElement.className += ' js';
     </script>
 </head>
 
@@ -47,7 +48,7 @@
 
     <main class="intro-bg">
         <div class="container intro">
-            <div class="intro-info camarao-enfeite1-bg">
+            <div data-anime="600" class="intro-info camarao-enfeite1-bg fadeInDown">
                 <h1 data-anime="200" class="intro-titilo fadeInDown font-6-3-1125-p branco">As melhores lembranças são
                     feitas de:
                     <span class="logo-d font-6-3-1125-p">Boa
@@ -69,10 +70,10 @@
     </main>
 
     <article class="tradicoes-bg container">
-        <h1 class="titulo-enfeite font-6-3-1125-p m18 ">Conheça um pouco sobre nossas tradições<span
+        <h1 class="titulo-enfeite font-6-3-1125-p m18 js-scroll">Conheça um pouco sobre nossas tradições<span
                 class="font-6-3-1125-p logo-d">.</span>
         </h1>
-        <div class="tradicoes-culinaria ">
+        <div class="tradicoes-culinaria js-scroll">
             <div class="tradicoes-culinaria-img">
                 <img src="./img/tradicoes-img/otimizadas/tradicoes-culinaria-img.jpg"
                     alt="Prato com camarões com o tempero especial Boa Boca, um dos melhores pratos do nosso restaurante.">
@@ -87,7 +88,7 @@
             </div>
         </div>
 
-        <div class="tradicoes-bebidas">
+        <div class="tradicoes-bebidas js-scroll">
             <div class="tradicoes-bebidas-info">
                 <h2 class="tradicoes-bebidas-titulo font-6-22-12-p m18">As melhores bebidas.</h2>
                 <p class="font-4-1-15-r m8">Nós mesmos importamos todos os vinhos. Esses vinhos são feitos por aqueles
@@ -106,35 +107,36 @@
 
     <article class="fundadores-bg">
         <div class="container fundadores-intro camarao-enfeite2-1-bg">
-            <picture class="fundadores-img ">
+            <picture class="fundadores-img js-scroll">
                 <source media="(max-width: 800px)" srcset="./img/fundadores/otimizadas/fundador2.jpg">
                 <img src="./img/fundadores/otimizadas/fundadores.jpg" alt="Camarão na panela com molhos especiais.">
             </picture>
             <div class="fundadores-info">
-                <h1 class="titulo-enfeite2 fundatores-titulo font-6-3-1125-p branco">Nossos fundadores</h1>
-                <h2 class="fundatores-subtitulo font-6-2-125-p m1">De um <span
+                <h1 class="titulo-enfeite2 js-scroll fundatores-titulo font-6-3-1125-p branco">Nossos fundadores</h1>
+                <h2 class="fundatores-subtitulo js-scroll font-6-2-125-p m1">De um <span
                         class="font-6-2-125-p logo-d">sonho</span> para a <span
                         class="font-6-2-125-p logo-d">realidade</span>.</h2>
 
-                <p class="fundatores-paragrafo font-5-1-133-r m4">A Petiscaria começou como um sonho de três
+                <p class="fundatores-paragrafo js-scroll font-5-1-133-r m4">A Petiscaria começou como um sonho de três
                     empreendedores – Maria João,
                     Pekka
                     e Carlos Henriques –
                     que
                     decidiram trazer o espírito ensolarado e quente de Portugal e a gastronomia portuguesa para
                     Helsinque.</p>
-                <a class="botao" href="./restaurante.html">Conheça mais</a>
+                <a class="botao js-scroll" href="./restaurante.html">Conheça mais</a>
             </div>
         </div>
     </article>
 
     <section class="comentarios" aria-label="Comentários">
         <div class="container">
-            <h1 class="titulo-enfeite3 comentario-titulo font-6-3-1125-p d18">Agradecemos o carinho de nossos clientes.
+            <h1 class="titulo-enfeite3 comentario-titulo font-6-3-1125-p d18 js-scroll">Agradecemos o carinho de nossos
+                clientes.
             </h1>
             <div class="comentarios-box">
-                <div class="comentario">
-                    <div class="comentario-info">
+                <div class="comentario js-scroll">
+                    <div class="comentario-info ">
                         <p class="d16 font-4-075-167-m comentario-paragrafo">Entre amigos fomos conhecer,
                             ótimo. Vários pratos com frutos do mar e uma variedade de pratos preparados com muito sabor
                             e aroma bom demais da conta, para quem quer variar e ter variedades eis uma ótima opção de
@@ -145,7 +147,7 @@
                         <img src="./img/comentarios/orimizados/joao-felipe-almeida.jpg" alt="">
                     </div>
                 </div>
-                <div class="comentario">
+                <div class="comentario js-scroll">
                     <div class="comentario-info">
                         <p class="d16 font-4-075-167-m comentario-paragrafo">Frutos do mar fresquinhos!
                             Gostei muito desse restaurante, tudo bem fresquinho, os frutos do mar diversificados. Indico
@@ -157,7 +159,7 @@
                         <img src="./img/comentarios/orimizados/eat2.jpg" alt="">
                     </div>
                 </div>
-                <div class="comentario">
+                <div class="comentario js-scroll">
                     <div class="comentario-info">
                         <p class="d16 font-4-075-167-m comentario-paragrafo">Ambiente familiar e boa comida
                             Bons preparos e produtos de qualidade. Pode melhorar um pouco a questão do atendimento nas
@@ -168,7 +170,7 @@
                         <img src="./img/comentarios/orimizados/eat3.jpg" alt="">
                     </div>
                 </div>
-                <div class="comentario">
+                <div class="comentario js-scroll">
                     <div class="comentario-info">
                         <p class="d16 font-4-075-167-m comentario-paragrafo">Recomendo a todos.
                             Gostei de tudo,desde atendimento, diversificação de pratos,higiene,bebidas gelas ,garçons

@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-m1);
   padding: 40px;
-  gap: 60px;
+  gap: 40px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -32,22 +32,26 @@
 }
 
 .restaurante-paragrafo {
-  padding-top: 40px;
+  align-self: center;
+  font-size: 1.2rem;
 }
 
 .restaurante-paragrafo-solo {
   grid-column: 1/-1;
-  max-width: 70ch;
+  font-size: 1.2rem;
   margin: 0 auto;
+  text-align: center;
 }
 
 .restaurante-span {
   color: var(--cor-m8);
+  font-size: 1.2rem;
   border-bottom: 1px solid var(--cor-m8);
 }
 
 .restaurante-paragrafo-solo a {
   color: var(--cor-m8);
+  font-size: 1.2rem;
   border-bottom: 3px solid var(--cor-m8);
 }
 .restaurante-paragrafo-solo a:hover {

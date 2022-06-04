@@ -1,0 +1,39 @@
+.bg-h1 {
+  position: relative;
+  top: -43px;
+  padding: 30px;
+  background: #810200;
+}
+
+.bg-h1-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.bg-h1-paragrafo {
+  justify-self: flex-end;
+  text-align: end;
+  font-size: 1.5rem;
+  max-width: 30ch;
+}
+
+.bg-h1-h1 {
+  margin: 0 !important;
+}
+
+@media (max-width: 760px) {
+  .bg-h1 {
+    padding: 30px 0;
+    background: #810200;
+  }
+  .bg-h1-conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .bg-h1-paragrafo {
+    text-align: start;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+}

@@ -8,9 +8,6 @@ function ativarLink(link) {
   if (url === href) {
     link.classList.add("ativo");
   }
-
-  // console.log(url);
-  // console.log(href);
 }
 links.forEach(ativarLink);
 
@@ -36,3 +33,26 @@ btnMobile.addEventListener("touchstart", toggleMenu);
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
+
+// ANIMAÇÃO DE SCROLL NOS ELEMENTOS
+function animateScroll() {
+  const animationsContent = document.querySelectorAll(".js-scroll");
+  if (animationsContent.length) {
+    const metadeJanela = window.innerHeight * 0.8;
+    function animateScrollContent() {
+      animationsContent.forEach((item) => {
+        const animateTop = item.getBoundingClientRect().top;
+        const apareceuNaTela = animateTop - metadeJanela < 0;
+        const ativeClasse = "ativo";
+        if (apareceuNaTela) {
+          item.classList.add(ativeClasse);
+        } else {
+          item.classList.remove(ativeClasse);
+        }
+      });
+    }
+    animateScrollContent();
+    window.addEventListener("scroll", animateScrollContent);
+  }
+}
+animateScroll();

@@ -11,6 +11,8 @@
 @import url("./utilitarios/tipografia.css");
 @import url("./utilitarios/cores.css");
 @import url("./utilitarios/animacao.css");
+@import url("./utilitarios/js-scroll.css");
+@import url("./utilitarios/bgh1.css");
 
 /* HOME */
 @import url("./home/nav.css");
